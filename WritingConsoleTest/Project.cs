@@ -47,6 +47,14 @@ namespace WritingConsoleTest
             return sum;
         }
 
+        public void ShowData ()
+        {
+            foreach (var item in Days)
+            {
+                Console.WriteLine($"Day: {item.Key} - {item.Value} words");
+            }
+        }
+
 
     }
 }

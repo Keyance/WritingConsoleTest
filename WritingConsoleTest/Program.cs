@@ -14,3 +14,4 @@ double average = danmachi.GetAverage();
 int sum = danmachi.GetSum();
 
 Console.WriteLine(average + " - " + sum);
+danmachi.ShowData();
